@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'spotify-circular' ,Helvetica,Arial,sans-serif;
+
+}
+
+.row{
+    /* /* border: 2px solid red;  */
+    
+    
+}
+ 
+.spotify-image{
+    max-width: 9%;
+    min-width: 6%;
+}
+
+.navbar-brand{
+    padding-left: 0;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+
+
+ /* ------------------End of Navbar----------------- */
+
+ 
+
+
+
+.circle{
+    /* border: 2px solid violet; */
+ 
+    max-width: 8em;
+    min-width: 7em;
+    padding: 4em;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11,
+231));
+    border-radius: 120%;
+    /* margin-left: 6em; */
+    
+    margin-bottom: 3em;
+ 
+}
+
+.card{
+    align-items: center;
+
+}
+
+.card-title{
+    /* text-align: center; */
+    text-align: center;
+}
+
+.card-title-why{
+text-align: center;
+font-size: 50px;
+font-weight: 900;
+margin-top: 1em;
+}
+
+.card-text{
+    text-align: center;
+}
+
+.row-items{
+    justify-content: center;
+    margin-top: 2em;
+    /* border: 2px solid yellow; */
+}
+ 
+.card{
+    margin: 5em;
+    /* border: 2px solid green; */
+    border: none;
+}
+
+.card-body{
+    /* border: 2px solid red; */
+}
+ 
+
+/* .circle-text-title{
+    font-weight: 550;
+}
+
+.circle-text-content{
+    font-size: 16px;
+
+       
+ 
+} */
+
+/* 
+@media screen and (max-width:320) {
+
+    .item{
+        position: relative;
+    }
+
+    .circle{
+        border: 2px solid violet;
+        margin-left: 0;
+        width: 120px;
+        height:  120px;
+        position: absolute;
+        left:0;            
+    }    
+} */
+
+.flex-items{
+    /* border: 2px solid red; */
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* justify-content: space-around; */
+}
+
+ 
+ 
+
+
+.col{
+    padding-top: 4em;
+    /* padding-bottom: 15em; */
+}
