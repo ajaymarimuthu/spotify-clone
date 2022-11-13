@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'spotify-circular' ,Helvetica,Arial,sans-serif;
+
+}
+
+
+.spotify-text{
+    text-align: center;
+    font-weight: bolder;
+}
+
+.spotify-logo-top{
+    /* max-width: 6%;
+    min-width:5%; */
+    max-width: 5%;
+     
+ 
+}
+
+
+
+.sign-up-text{
+    text-align: center;
+    font-weight: bolder;
+}
+
+ 
+.button-container{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn{
+    margin-bottom: 1em;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    color: black;
+    background-color: #40c057;
+    padding: 1em;
+    padding-right: 3em;
+    padding-left: 3em;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+.fb-btn{
+    color: white;
+}
+.gog-btn{
+
+    background-color: white;
+    color: black;
+    border:2px solid black;
+
+}
+.fa-google{
+    color: red;
+}
+
+
+
+.main-flex{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* -----below is robot  */
+
+.robot{
+
+    border: 2px solid gray;
+    padding: 1em;
+    margin: 2em;
+    margin-left: 0;
+
+}
+
+.form{
+    margin-top: 1em;
+    align-items: center;
+    justify-items: center;
+    
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* .form-label{
+    font-weight: bolder;
+} */
+
+.form-check-label{
+    margin-right: 1em;
+}
+a{
+    color: #8ce99a;
+    font-size: 12px;
+}
+ 

@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family: 'spotify-circular' ,Helvetica,Arial,sans-serif;
+
+}
+
+.container{
+    /* border: 2px solid red; */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}
+
+
+.img-fluid{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    /* border: 2px solid white; */
+    padding: 1em;
+    /* width: 50%; */
+    
+}
+
+.button-container{
+    flex-direction: column;
+}
+
+.btn{
+    border-radius: 25%;
+    border-bottom-left-radius: 2em;
+    border-bottom-right-radius: 2em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+}
+
+.ap-btn{
+    margin: 0.5em;
+}
+
+.gog-btn{
+    color:#868e96;
+    border: 1px solid #868e96;
+}
+.ph-btn{
+    color:#868e96;
+    border: 1px solid #868e96;
+}
+
+.or-text{
+    text-align: center;
+}
+
+.forgot-pwd{
+    margin-bottom: 1em;
+}
+
+.rem-me{
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.sign-in{
+    background-color: #51cf66;
+    color: black;
+    padding-right: 2em;
+    padding-left: 2em;
+ 
+}
+
+.sign-up-btn{
+    /* border: 1px solid red; */
+    border: 1px solid #868e96;
+    padding: 1em;
+   
+}
+
+.logo{
+     width: 10%;
+    /* min-width: 10%; */
+    /* border: 2px solid black; */
+    flex-direction: row;
+    
+}
+
+.spotify-text{
+ 
+    font-weight: bolder;
+    /* margin-top: 1em; */
+     
+}
+
+
+.continue{
+    font-weight: bold;
+}
+ 
